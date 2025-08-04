@@ -38,7 +38,7 @@ REPO_URL="https://github.com/${GITHUB_REPOSITORY}"
 if [ "$REPO_URL" = "https://github.com/zhiern/OpenWRT-Mediatek" ]; then
     export mirror="http://127.0.0.1:8080"
 else
-    export mirror="https://init.kejizero.online"
+    export mirror="export mirror=https://raw.githubusercontent.com/cheng1nuo/OpenWRT-Mediatek/refs/heads/openwrt-24.10"
 fi
 
 # GitHub mirror
